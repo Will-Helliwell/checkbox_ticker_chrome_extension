@@ -16,6 +16,7 @@
       "https://*.example.com/"
     ],
     "permissions": [
-      "storage"
+      "activeTab",
+      "scripting"
     ]
   }
