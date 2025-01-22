@@ -1,4 +1,4 @@
-document.getElementById('tickAllCheckboxes').addEventListener('click', async () => {
+document.getElementById('tick-all-checkboxes').addEventListener('click', async () => {
   let [tab] = await chrome.tabs.query({active: true, currentWindow: true});
   
   chrome.scripting.executeScript({
