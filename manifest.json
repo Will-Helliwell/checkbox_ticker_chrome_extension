@@ -9,12 +9,9 @@
         "128": "images/green_tick_128.png"
     },
     "action": {
-      "default_popup": "index.html",
+      "default_popup": "pop_up.html",
       "default_title": "Tick all checkboxes"
     },
-    "host_permissions": [
-      "https://*.example.com/"
-    ],
     "permissions": [
       "activeTab",
       "scripting"
